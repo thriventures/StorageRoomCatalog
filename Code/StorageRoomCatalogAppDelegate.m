@@ -36,12 +36,7 @@
 //    RKLogConfigureByName("RestKit/Network", RKLogLevelDebug);
 //    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
 //    RKLogConfigureByName("RestKit/Network/Queue", RKLogLevelDebug);
-//    
-//    RKLogConfigureByName("StorageRoomKit", RKLogLevelDebug);    
-//    RKLogConfigureByName("StorageRoomKit/Network", RKLogLevelDebug);
-//    RKLogConfigureByName("StorageRoomKit/ObjectMapping", RKLogLevelDebug);
-//    RKLogConfigureByName("StorageRoomKit/Network", RKLogLevelDebug);
-    
+
     RKLogSetAppLoggingLevel(RKLogLevelDebug);
     
 #ifdef RESTKIT_GENERATE_SEED_DB // see the RKCatalog example in the RestKit project
