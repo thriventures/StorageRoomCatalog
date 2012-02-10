@@ -1,0 +1,6 @@
+[submodule "Vendor/RestKit"]
+	path = Vendor/RestKit
+	url = git://github.com/RestKit/RestKit.git
+[submodule "Vendor/StorageRoomKit"]
+	path = Vendor/StorageRoomKit
+	url = git://github.com/thriventures/StorageRoomKit.git

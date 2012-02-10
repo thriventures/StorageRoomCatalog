@@ -1,0 +1,174 @@
+{
+    "array": {
+        "m_total_resources": 15,
+        "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries",
+        "m_type": "Array",
+        "resources": [
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e45295e4d085d4e33000f3a",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:23:42Z",
+                      "m_updated_at": "2011-08-12T13:23:42Z",
+                      "title": "Article 1",
+                      "text": "This Article will be deleted after the first sync."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4529644d085d4e33000f3f",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:23:48Z",
+                      "m_updated_at": "2011-08-12T13:23:48Z",
+                      "title": "Article 2",
+                      "text": "This Article will be updated with the first sync."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e45296c4d085d4e1100121a",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:23:56Z",
+                      "m_updated_at": "2011-08-12T13:23:56Z",
+                      "title": "Article 3",
+                      "text": "This Article will be updated with the first sync."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4529724d085d4e6a00116a",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:24:02Z",
+                      "m_updated_at": "2011-08-12T13:24:02Z",
+                      "title": "Article 4",
+                      "text": "This Article will be updated with the first sync."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4529774d085d4e6a00116f",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:24:07Z",
+                      "m_updated_at": "2011-08-12T13:24:07Z",
+                      "title": "Article 5",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e45297e4d085d4d7e00109d",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:24:14Z",
+                      "m_updated_at": "2011-08-12T13:24:14Z",
+                      "title": "Article 6",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4529834d085d4e1100122b",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:24:19Z",
+                      "m_updated_at": "2011-08-12T13:24:19Z",
+                      "title": "Article 7",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4529884d085d4d7e0010a2",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:24:24Z",
+                      "m_updated_at": "2011-08-12T13:24:24Z",
+                      "title": "Article 8",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus."
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4531074d085d4d7e001100",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:56:23Z",
+                      "m_updated_at": "2011-08-12T13:56:23Z",
+                      "title": "Article 9",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus.\t"
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e45310d4d085d4e6a0011b9",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:56:29Z",
+                      "m_updated_at": "2011-08-12T13:56:29Z",
+                      "title": "Article 10",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus.\t"
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4531134d085d4e5a0010c4",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:56:35Z",
+                      "m_updated_at": "2011-08-12T13:56:35Z",
+                      "title": "Article 11",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus.\t"
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4531194d085d4e33000f93",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:56:41Z",
+                      "m_updated_at": "2011-08-12T13:56:41Z",
+                      "title": "Article 12",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus.\t"
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e45311f4d085d4d7e001111",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:56:47Z",
+                      "m_updated_at": "2011-08-12T13:56:47Z",
+                      "title": "Article 13",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus.\t"
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e4531244d085d4dd6000fe2",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:56:52Z",
+                      "m_updated_at": "2011-08-12T13:56:52Z",
+                      "title": "Article 14",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus.\t"
+                      },
+                      {
+                      "m_type": "Article",
+                      "m_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b/entries/4e45312b4d085d4e33000f98",
+                      "m_collection_url": "http://api.storageroomapp.com/accounts/4d13574cba05613d25000004/collections/4e4528c74d085d4db7000f4b",
+                      "m_version": 1,
+                      "m_trash": false,
+                      "m_created_at": "2011-08-12T13:56:59Z",
+                      "m_updated_at": "2011-08-12T13:56:59Z",
+                      "title": "Article 15",
+                      "text": "Perferendis fuga quia et. Blanditiis voluptatem saepe officiis facere quo. Qui non perspiciatis beatae temporibus.\t"
+                      }
+                      ]
+    }
+}
