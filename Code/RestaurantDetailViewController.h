@@ -12,8 +12,8 @@
 
 @interface RestaurantDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) Restaurant *restaurant;
+@property (nonatomic, strong) Restaurant *restaurant;
 
 @end

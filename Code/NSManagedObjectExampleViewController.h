@@ -12,10 +12,10 @@
 
 @interface NSManagedObjectExampleViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, RKObjectLoaderDelegate>
 
-@property (nonatomic, retain) IBOutlet RestaurantDetailViewController *restaurantViewController;
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet RestaurantDetailViewController *restaurantViewController;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) NSArray *restaurants;
+@property (nonatomic, strong) NSArray *restaurants;
 @property (nonatomic, copy) NSString *nextPageURL;
 
 - (IBAction)reloadButtonTapped;

@@ -35,7 +35,7 @@
     
     RKLogDebug(@"Last synchonization was at: %@", self.lastSynchronizationDate);
     
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(syncButtonTapped)] autorelease];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(syncButtonTapped)];
 }
 
 - (void)viewDidUnload {
@@ -63,7 +63,7 @@
     NSDate *date = (NSDate *)[[NSUserDefaults standardUserDefaults] objectForKey:kLastSynchronizationKey];
     
     if (!date) { // first sync after the export has been generated
-        NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss zzz"];
         date = [dateFormatter dateFromString:kExportDate];
     }
@@ -127,7 +127,7 @@
 - (void)objectLoader:(RKObjectLoader *)anObjectLoader didFailWithError:(NSError *)anError {
     self.navigationItem.rightBarButtonItem.enabled = YES;
     
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
 }
 
@@ -145,7 +145,7 @@
 - (UITableViewCell *)tableView:(UITableView *)aTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {    
     UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"ArticleCell"];
     if (!cell) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"ArticleCell"] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"ArticleCell"];
     }
     
     Article *article = [self.articles objectAtIndex:indexPath.row];

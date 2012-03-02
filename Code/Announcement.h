@@ -13,11 +13,11 @@
 
 @property (nonatomic, copy) NSString * text;
 @property (nonatomic, copy) NSString * link;
-@property (nonatomic, retain) SRFile * image;
+@property (nonatomic, strong) SRFile * image;
 
 @property (nonatomic, copy) NSString * mUrl;
-@property (nonatomic, retain) NSDate * mUpdatedAt;
-@property (nonatomic, retain) NSDate * mCreatedAt;
+@property (nonatomic, strong) NSDate * mUpdatedAt;
+@property (nonatomic, strong) NSDate * mCreatedAt;
 
 - (NSString *)toString;
 

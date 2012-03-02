@@ -10,13 +10,13 @@
 
 @interface SeededDataExampleViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, RKObjectLoaderDelegate>
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) NSArray *articles;
-@property (nonatomic, assign) NSDate *lastSynchronizationDate;
+@property (nonatomic, strong) NSArray *articles;
+@property (nonatomic, strong) NSDate *lastSynchronizationDate;
 
-@property (nonatomic, retain) RKObjectLoader *updatedEntriesObjectLoader;
-@property (nonatomic, retain) RKObjectLoader *deletedEntriesObjectLoader;
+@property (nonatomic, strong) RKObjectLoader *updatedEntriesObjectLoader;
+@property (nonatomic, strong) RKObjectLoader *deletedEntriesObjectLoader;
 
 - (IBAction)syncButtonTapped;
 

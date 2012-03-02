@@ -48,7 +48,7 @@
     UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"MethodCell"];
     
     if (!cell) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"MethodCell"] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"MethodCell"];
     }
     
     NSString *methodName = [self.methodNames objectAtIndex:indexPath.row];

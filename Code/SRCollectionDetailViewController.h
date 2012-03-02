@@ -13,11 +13,11 @@
 
 @interface SRCollectionDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, retain) IBOutlet SRFieldDetailViewController *fieldDetailViewController;
-@property (nonatomic, retain) IBOutlet SREntriesViewController *entriesViewController;
+@property (nonatomic, strong) IBOutlet SRFieldDetailViewController *fieldDetailViewController;
+@property (nonatomic, strong) IBOutlet SREntriesViewController *entriesViewController;
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) SRCollection *collection;
+@property (nonatomic, strong) SRCollection *collection;
 
 @end

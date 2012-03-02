@@ -12,12 +12,12 @@
 
 @interface SREntriesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, RKObjectLoaderDelegate>
 
-@property (nonatomic, retain) IBOutlet SREntryDetailViewController *entryDetailViewController;
+@property (nonatomic, strong) IBOutlet SREntryDetailViewController *entryDetailViewController;
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) SRCollection *collection;
-@property (nonatomic, retain) NSMutableArray *entries;
+@property (nonatomic, strong) SRCollection *collection;
+@property (nonatomic, strong) NSMutableArray *entries;
 @property (nonatomic, copy) NSString *nextPageURL;
 
 - (IBAction)reloadButtonTapped;

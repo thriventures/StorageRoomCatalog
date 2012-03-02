@@ -63,7 +63,7 @@
             UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"NameCell"];
             
             if (!cell) {
-                cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"NameCell"] autorelease];
+                cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"NameCell"];
                 cell.detailTextLabel.font = [UIFont systemFontOfSize:10];
             }
             
@@ -77,7 +77,7 @@
             UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"EntriesCell"];
             
             if (!cell) {
-                cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"EntriesCell"] autorelease];
+                cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"EntriesCell"];
                 cell.textLabel.text = @"Entries";                
                 cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             }
@@ -90,7 +90,7 @@
         UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"FieldCell"];
         
         if (!cell) {
-            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"FieldCell"] autorelease];
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"FieldCell"];
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         }
         

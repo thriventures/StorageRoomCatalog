@@ -58,7 +58,7 @@
 
 - (void)objectLoader:(RKObjectLoader *)anObjectLoader didFailWithError:(NSError *)anError {
     self.announcementLabel.text = @"";        
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
 }
 

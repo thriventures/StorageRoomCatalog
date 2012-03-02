@@ -10,9 +10,9 @@
 
 @interface SREntryDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
-@property (nonatomic, retain) SREntry *entry;
-@property (nonatomic, retain) SRCollection *collection;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) SREntry *entry;
+@property (nonatomic, strong) SRCollection *collection;
 
 
 @end

@@ -12,10 +12,10 @@
 
 @interface PostsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, RKObjectLoaderDelegate>
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) NSArray *posts;
-@property (nonatomic, retain) Category *category;
+@property (nonatomic, strong) NSArray *posts;
+@property (nonatomic, strong) Category *category;
 
 - (IBAction)reloadButtonTapped;
 

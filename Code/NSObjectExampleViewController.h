@@ -9,11 +9,9 @@
  
 @interface NSObjectExampleViewController : UIViewController <RKObjectLoaderDelegate>
 
-@property (nonatomic, retain) IBOutlet UILabel *announcementLabel;
-@property (nonatomic, retain) IBOutlet UIButton *reloadButton;
-
+@property (nonatomic, strong) IBOutlet UILabel *announcementLabel;
+@property (nonatomic, strong) IBOutlet UIButton *reloadButton;
 
 - (IBAction)reloadButtonTapped;
-
 
 @end

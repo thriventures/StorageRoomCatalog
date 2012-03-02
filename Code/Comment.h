@@ -13,8 +13,8 @@
 @property (nonatomic, copy) NSString *text;
 
 @property (nonatomic, copy) NSString *mUrl;
-@property (nonatomic, retain) NSDate *mCreatedAt;
-@property (nonatomic, retain) NSDate *mUpdatedAt;
+@property (nonatomic, strong) NSDate *mCreatedAt;
+@property (nonatomic, strong) NSDate *mUpdatedAt;
 
 - (NSString *)toString;
 

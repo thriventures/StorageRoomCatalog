@@ -27,14 +27,4 @@
     return @"Post";
 }
 
-#pragma mark -
-#pragma mark NSObject
-
-- (void)dealloc {
-    self.name = nil;
-    self.body = nil;
-    
-    [super dealloc];
-}
-
 @end

@@ -12,15 +12,15 @@
 
 @interface CRUDExampleViewController : UIViewController <RKObjectLoaderDelegate, UITextFieldDelegate>
 
-@property (nonatomic, retain) IBOutlet UIButton *createButton;
-@property (nonatomic, retain) IBOutlet UIButton *updateButton;
-@property (nonatomic, retain) IBOutlet UIButton *deleteButton;
-@property (nonatomic, retain) IBOutlet UIButton *reloadButton;
+@property (nonatomic, strong) IBOutlet UIButton *createButton;
+@property (nonatomic, strong) IBOutlet UIButton *updateButton;
+@property (nonatomic, strong) IBOutlet UIButton *deleteButton;
+@property (nonatomic, strong) IBOutlet UIButton *reloadButton;
 
-@property (nonatomic, retain) IBOutlet UILabel *detailLabel;
-@property (nonatomic, retain) IBOutlet UITextField *textField;
+@property (nonatomic, strong) IBOutlet UILabel *detailLabel;
+@property (nonatomic, strong) IBOutlet UITextField *textField;
 
-@property (nonatomic, retain) Comment *comment;
+@property (nonatomic, strong) Comment *comment;
 
 - (IBAction)createButtonTapped;
 - (IBAction)updateButtonTapped;

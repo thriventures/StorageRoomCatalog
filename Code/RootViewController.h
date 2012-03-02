@@ -10,8 +10,8 @@
 
 @interface RootViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@property (nonatomic, retain) NSArray *cellTitles;
-@property (nonatomic, retain) NSArray *cellDescriptions;
+@property (nonatomic, strong) NSArray *cellTitles;
+@property (nonatomic, strong) NSArray *cellDescriptions;
 
 
 @end

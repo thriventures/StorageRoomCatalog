@@ -28,14 +28,5 @@
     return @"Category";
 }
 
-#pragma mark -
-#pragma mark NSObject
-
-- (void)dealloc {
-    self.name = nil;
-    self.mUrl = nil;
-    
-    [super dealloc];
-}
 
 @end

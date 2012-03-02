@@ -85,14 +85,14 @@
     UITableViewCell *cell = nil;
     
     if (indexPath.section == kSegmentTitle) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease]; 
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil]; 
         cell.textLabel.font = [UIFont boldSystemFontOfSize:15];
         cell.textLabel.text = [self.restaurant name];
         
-        [cell.imageView setImageWithURL:[NSURL URLWithString:[self.restaurant mPreviewImageUrl]] placeholderImage:nil];
+        [cell.imageView setImageWithURL:[NSURL URLWithString:[self.restaurant mPreviewImageUrl]] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
     }
     else if (indexPath.section == kSegmentBasic) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:nil] autorelease]; 
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:nil]; 
         
         if (indexPath.row == kRestaurantText) {
             cell.textLabel.text = @"Text";
@@ -120,7 +120,7 @@
         }
     }
     else if (indexPath.section == kSegmentDetail) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:nil] autorelease]; 
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:nil]; 
         
         if (indexPath.row == kRestaurantVegetarianMenu) {
             cell.textLabel.text = @"Vegetarian";

@@ -12,10 +12,10 @@
 
 @interface AssociationsExampleViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, RKObjectLoaderDelegate>
 
-@property (nonatomic, retain) IBOutlet PostsViewController *postsViewController;
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet PostsViewController *postsViewController;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) NSArray *categories;
+@property (nonatomic, strong) NSArray *categories;
 
 - (IBAction)reloadButtonTapped;
 

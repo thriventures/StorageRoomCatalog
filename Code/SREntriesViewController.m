@@ -25,7 +25,7 @@
     [self resetTableView];
     
     self.navigationItem.title = @"Entries";
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(reloadButtonTapped)] autorelease];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(reloadButtonTapped)];
     
     [self reloadButtonTapped];    
 }
@@ -78,7 +78,7 @@
 }
 
 - (void)objectLoader:(RKObjectLoader *)anObjectLoader didFailWithError:(NSError *)anError {
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
 }
 
@@ -98,7 +98,7 @@
     if ([self.entries count] == indexPath.row) { // More Cell
         UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"MoreCell"];
         if (!cell) {
-            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MoreCell"] autorelease];
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MoreCell"];
             cell.textLabel.text = @"More...";
             cell.textLabel.textColor = [UIColor blueColor];
         }        
@@ -108,7 +108,7 @@
     else { // Entry Cell
         UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"EntryCell"];
         if (!cell) {
-            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"EntryCell"] autorelease];
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"EntryCell"];
             cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
         }
         

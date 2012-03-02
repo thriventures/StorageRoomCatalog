@@ -16,17 +16,6 @@
 @synthesize window, navigationController;
 
 #pragma mark -
-#pragma mark NSObject
-
-- (void)dealloc {
-    self.window = nil;
-    self.navigationController = nil;
-    
-    [super dealloc];
-}
-
-
-#pragma mark -
 #pragma mark Helpers
 
 - (void)initializeRestKit {     

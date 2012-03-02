@@ -29,7 +29,7 @@
     objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:@"RestaurantData.sqlite" usingSeedDatabaseName:nil managedObjectModel:nil delegate:self];
     objectManager.client.requestQueue.showsNetworkActivityIndicatorWhenBusy = YES;
   
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(reloadButtonTapped)] autorelease];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(reloadButtonTapped)];
     
     if (![self.restaurants count]) {
         [self reloadButtonTapped];        
@@ -83,7 +83,7 @@
 }
 
 - (void)objectLoader:(RKObjectLoader *)anObjectLoader didFailWithError:(NSError *)anError {
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
 }
 
@@ -102,7 +102,7 @@
     if ([self.restaurants count] == indexPath.row) { // More Cell
         UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"MoreCell"];
         if (!cell) {
-            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MoreCell"] autorelease];
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MoreCell"];
             cell.textLabel.text = @"More...";
             cell.textLabel.textColor = [UIColor blueColor];
         }        
@@ -112,7 +112,7 @@
     else { // Restaurant Cell
         UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:@"RestaurantCell"];
         if (!cell) {
-            cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"RestaurantCell"] autorelease];
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"RestaurantCell"];
             cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
         }
         

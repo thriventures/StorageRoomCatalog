@@ -40,20 +40,6 @@
 }
 
 #pragma mark -
-#pragma mark NSObject
-
-- (void)dealloc {
-    self.text = nil;
-    self.link = nil;
-    self.image = nil;
-    self.mUrl = nil;
-    self.mCreatedAt = nil;
-    self.mUpdatedAt = nil;
-    
-    [super dealloc];
-}
-
-#pragma mark -
 #pragma mark Helpers
 
 - (NSString *)toString {

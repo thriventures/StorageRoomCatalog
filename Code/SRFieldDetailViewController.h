@@ -10,9 +10,9 @@
 
 @interface SRFieldDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
-@property (nonatomic, retain) SRField *field;
-@property (nonatomic, retain) NSArray *methodNames;
+@property (nonatomic, strong) SRField *field;
+@property (nonatomic, strong) NSArray *methodNames;
 
 @end

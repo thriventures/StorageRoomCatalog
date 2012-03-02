@@ -16,7 +16,7 @@
 @property (nonatomic, copy) NSString * mUrl;
 @property (nonatomic, copy) NSString * title;
 @property (nonatomic, copy) NSString * text;
-@property (nonatomic, retain) NSDate * mCreatedAt;
-@property (nonatomic, retain) NSDate * mUpdatedAt;
+@property (nonatomic, strong) NSDate * mCreatedAt;
+@property (nonatomic, strong) NSDate * mUpdatedAt;
 
 @end

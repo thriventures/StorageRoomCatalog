@@ -69,7 +69,7 @@
 #pragma mark IBActions
 
 - (IBAction)createButtonTapped {
-    self.comment = [[[Comment alloc] init] autorelease];
+    self.comment = [[Comment alloc] init];
     self.comment.text = self.textField.text;
     
     [[RKObjectManager sharedManager] postObject:self.comment delegate:self];
@@ -119,7 +119,7 @@
 
 - (void)objectLoader:(RKObjectLoader *)anObjectLoader didFailWithError:(NSError *)anError {
     [self refreshView];    
-	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[anError localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
 }
 

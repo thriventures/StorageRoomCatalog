@@ -14,16 +14,6 @@
 @synthesize cellTitles, cellDescriptions;
 
 #pragma mark -
-#pragma mark NSObject
-
-- (void)dealloc {
-    self.cellTitles = nil;
-    self.cellDescriptions = nil;
-    
-    [super dealloc];
-}
-
-#pragma mark -
 #pragma mark UIViewController
 
 - (void)viewDidLoad {
@@ -72,7 +62,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (!cell) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         cell.textLabel.font = [UIFont boldSystemFontOfSize:16];
         cell.detailTextLabel.numberOfLines = 2;
@@ -100,7 +90,6 @@
         if (exampleController.title == nil) {
             exampleController.title = exampleName;
         }
-        [exampleController release];
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
